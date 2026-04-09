@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+  <!-- ↓ CSSファイルを読み込んでください「style.css」にすること -->
+  <link rel="stylesheet" href="test.css"/>
+</head>
+
+<body>
+  <header>
+    <h2>世界一甘いお店</h2>
+  </header>  
+
+  <article>
+    <ul id="flex">
+        <li><a href="https://www.godiva.co.jp/">トップ</a></li>
+        <li><a href="https://www.godiva.co.jp/spring/">新着情報</a></li>
+        <li><a href="ttps://ja.wikipedia.org/wiki/グラブ・ジャムン">おすすめのスイーツ</a></li>
+        <li><a href="https://www.godiva.co.jp/spring/">お問い合わせ</a></li>
+    </ul><!--list fin-->
+
+    <main>
+
+ <table  border="4px">
+
+    <form method="post">
+
+    <tr>
+        <th> <label for="name">お名前</label> </th>
+        <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+        <th><label for="shop">お近くのお店</label></th>
+        <td>
+        <select name="shop" width="40em">
+        <option value="hokkaido">北海道・東北</option>
+        <option value="kanto">関東</option>
+        <option value="chubu">中部</option>
+        <option value="kansai">関西</option>
+        <option value="sikoku">中国・四国</option>
+        <option value="okinawa">九州・沖縄</option>
+    </select></td>
+    </tr>
+    <tr>
+        <th><label for="tell">電話</label></th>
+        <td><input type="text" name="tell">
+    </tr>
+    <tr>
+       <th><label for="address">電話番号</label></th>
+    <td><input type="text" name="address"></td>
+    </tr>
+    <tr>
+       <th><label for="email">メールアドレス</label></th>
+    <td><input type="email" name="email"></td>
+    </tr>
+    <tr>
+       <th> <label for="kind">お問い合わせ種別</label></th>
+    <td><input type="radio" name="kind" value="1">商品について
+    <input type="radio" name="kind" value="2">従業員について</td>
+    </tr>
+    <tr>
+        <th><label for="message">お問い合わせ内容</label></th>
+        <td><textarea name="message" cols="30em" rows="5rows">詳細を入力してください</textarea></td>
+    </tr>
+    </table>
+    <button type="submit" class="submit">送信</button>
+</article>
+
+    </form><!--フォーム終わり-->
+
+</main>
+
+    <footer>
+        <br>
+    </footer>
+
+
+
+
+</body>
+</html>
