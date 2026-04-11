@@ -39,6 +39,12 @@ table{
    float: right;
 }
 
+.area{
+    display:block;
+    width: 30em;
+    line-height: 5;
+}
+
 footer{
     background-color: gray;
     margin-top: 0px;
