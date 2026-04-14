@@ -31,7 +31,7 @@ body{
 table{
     align-items: center;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
    
 }
 
@@ -41,8 +41,9 @@ table{
 
 .area{
     display:block;
-    width: 30em;
-    line-height: 5;
+    width: 15em;
+    height: 5em;
+
 }
 
 footer{
